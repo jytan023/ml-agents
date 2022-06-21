@@ -24,7 +24,7 @@ pip3 install -e ./ml-agents
 
 
 
-## For now
+## The Environments
 
 | ML-Agent Environment |                                                                                                                | Windows Executable                                       | Mac Executable | Linux Executable | Visualize your agent online with Hugging Face Spaces |
 |----------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|----------------|------------------|------------------------------------------------------|
