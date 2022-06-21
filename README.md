@@ -10,7 +10,13 @@ This is a Fork of the Unity ML-Agents toolkit. This version allows you to **publ
 
 ### Step 1: Install the package
 ```
-pip install git+https://github.com/huggingface/ml-agents.git
+# Clone the repository
+git clone https://github.com/huggingface/ml-agents/
+
+# Go inside the repository and install the package
+cd ml-agents
+pip3 install -e ./ml-agents-envs
+pip3 install -e ./ml-agents
 ```
 
 ### Step 2: Download the executable based on your system or use Unity Editor directly
