@@ -2,7 +2,7 @@
 
 This is a Fork of the Unity ML-Agents toolkit. This version allows you to **publish your trained agents in one line of code to the Hugging Face Hub**, **download powerful agents** from the community, and **watch a replay of your agent without using the Unity Editor**.
 
-⚠️ This is an experimental version, that might be subject to change. If you **encounter some issues, please open an issue**. Don't forget to check [what environments are currently available](https://github.com/huggingface/ml-agents/edit/main/README.md#for-now).
+⚠️ This is an experimental version, that might be subject to change. If you **encounter some issues, please open an issue**. Don't forget to check [what environments are currently available](https://github.com/huggingface/ml-agents#the-environments).
 
 ## Getting started
 
