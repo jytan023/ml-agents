@@ -55,7 +55,7 @@ def _generate_model_card(repo_local_path, configfile_name, repo_id):
     :mean_reward: mean reward of the agent
     :std_reward: standard deviation of the mean reward of the agent
     """
-
+    Debug.Log("repo_id", repo_id)
     # Step 1: Read the config.json
     with open(os.path.join(repo_local_path, "config.json"), 'r') as f:
         data = json.load(f)
