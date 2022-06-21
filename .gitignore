@@ -43,9 +43,7 @@
 *.apk
 *.unitypackage
 *.app
-*.exe
-*.x86_64
-*.x86
+
 
 # Plugins
 /com.unity.ml-agents/VideoRecorder*
