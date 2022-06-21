@@ -47,7 +47,7 @@ def select_tags(env_id):
     return model_card
 
 
-def _generate_model_card(repo_local_path, configfile_name):
+def _generate_model_card(repo_local_path, configfile_name, repo_id):
     """
     Generate the model card for the Hub
     :param model_name: name of the model
@@ -170,7 +170,7 @@ def package_to_hub(run_id,
     _generate_config(repo_local_path, configfile_name)
 
     # Step 2: Generate the model card
-    generated_model_card = _generate_model_card(repo_local_path, configfile_name)
+    generated_model_card = _generate_model_card(repo_local_path, configfile_name, repo_id)
 
     _create_model_card(repo_local_path, generated_model_card)
 
