@@ -87,7 +87,7 @@ def _generate_model_card(repo_local_path, configfile_name, repo_id):
   """
 
     model_card += f"""
-  1. Go to https://huggingface.co/spaces/unity/Unity-ML-Agents-{env_id}
+  1. Go to https://huggingface.co/spaces/unity/ML-Agents-{env_id}
   2. Step 1: Write your model_id: {repo_id}
   3. Step 2: Select your *.nn /*.onnx file
   4. Click on Watch the agent play 👀
