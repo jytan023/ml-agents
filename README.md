@@ -47,7 +47,7 @@ mlagents-push-to-hf --run-id="First Training" --local-dir="results/First Trainin
 We define four parameters:
 - `--run-id`: the name of the training run id.
 - `--local-dir`: where the agent was saved, it’s results/<run_id name>, so in my case results/First Training.
-- `-- repo-id`:  the name of the Hugging Face repo you want to create or update. It’s always <your huggingface username>/<the repo name>
+- `-- repo-id`:  the name of the Hugging Face repo you want to create or update. It’s always `<your huggingface username>/<the repo name>`
 - `--commit-message`
 
 ## The Environments
