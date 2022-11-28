@@ -146,7 +146,7 @@ def package_to_hub(run_id,
     # Create the repo (or clone its content if it's nonempty)
     api = HfApi()
     repo_url = api.create_repo(
-        name=repo_name,
+        repo_id=repo_id,
         token=huggingface_token,
         organization=organization,
         private=False,
