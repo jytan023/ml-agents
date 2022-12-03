@@ -148,7 +148,6 @@ def package_to_hub(run_id,
     repo_url = api.create_repo(
         repo_id=repo_id,
         token=huggingface_token,
-        organization=organization,
         private=False,
         exist_ok=True, )
 
