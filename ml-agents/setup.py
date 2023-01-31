@@ -5,6 +5,7 @@ from setuptools import setup, find_packages
 from setuptools.command.install import install
 from mlagents.plugins import ML_AGENTS_STATS_WRITER, ML_AGENTS_TRAINER_TYPE
 import mlagents.trainers
+import mlagents.utils
 
 VERSION = mlagents.trainers.__version__
 EXPECTED_TAG = mlagents.trainers.__release_tag__
