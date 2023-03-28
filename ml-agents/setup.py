@@ -51,6 +51,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
     ],
     # find_namespace_packages will recurse through the directories and find all the packages
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
@@ -80,7 +81,7 @@ setup(
         "importlib_metadata; python_version<'3.8'",
         "huggingface_hub~=0.8"
     ],
-    python_requires=">=3.6.1",
+    python_requires=">=3.8.13,<3.11.0",
     entry_points={
         "console_scripts": [
             "mlagents-learn=mlagents.trainers.learn:main",
